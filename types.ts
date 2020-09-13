@@ -22,10 +22,10 @@ variable = 'New String'
 variable = []
 
 // ====
-function sayMyName(name: string): void {
-  console.log(name)
+function sayHello(name: string): void {
+  console.log('Hello there', name)
 }
-sayMyName('Papazoglo')
+sayHello('Oleksii!')
 
 // Never
 function throwError(message: string): never {
